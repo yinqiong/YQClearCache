@@ -1,0 +1,6 @@
+use_frameworks!
+target 'YQClearCache_Tests' do
+  pod 'YQClearCache', :path => '../'
+  
+  
+end
