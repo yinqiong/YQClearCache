@@ -1,0 +1,6 @@
+framework module YQClearCache {
+  umbrella header "YQClearCache-umbrella.h"
+
+  export *
+  module * { export * }
+}
