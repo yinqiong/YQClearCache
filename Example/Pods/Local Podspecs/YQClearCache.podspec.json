@@ -1,8 +1,8 @@
 {
   "name": "YQClearCache",
   "version": "0.1.0",
-  "summary": "A short description of YQClearCache.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "清理缓存类",
+  "description": "只有2个方法，一个是用来查看当前App缓存大小，一个用来清理缓存",
   "homepage": "https://github.com/yinqiong/YQClearCache",
   "license": {
     "type": "MIT",

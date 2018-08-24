@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "YQClearCache.h"
 
 FOUNDATION_EXPORT double YQClearCacheVersionNumber;
 FOUNDATION_EXPORT const unsigned char YQClearCacheVersionString[];

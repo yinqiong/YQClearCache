@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A3A125E367D95552ED49C1A85C6F9DF /* YQClearCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E847AD85C389928B5E84CAF67F07554 /* YQClearCache-dummy.m */; };
+		1246A8DC2B36C2247FE2081D71AA5079 /* YQClearCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1496403CC192557166F02526E47000D7 /* YQClearCache-dummy.m */; };
 		1C847E4330AC952ED130E6D5331585DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1E7CED11A2394EF5AFC2CC291208F6EB /* YQClearCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8738E276FE1CD7DC1D6205D24E6C1685 /* YQClearCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75326458995E2E294290F2498C87C874 /* YQClearCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD8762CBF0BDBE775EEEA6DEF5A894CA /* YQClearCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82374DA316D319E74961A7C357B74764 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		97A6FD97EC1D34A53CC68C39C6E98BAA /* Pods-YQClearCache_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F106DE49CBD1E175A546C864DC6CB69A /* Pods-YQClearCache_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C64EA6B49EEF83C445C6B45F16AED95E /* Pods-YQClearCache_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE190C9D333155CD217154088A6254F /* Pods-YQClearCache_Tests-dummy.m */; };
-		F17A5AE0198EE7B3E862B14D4592D571 /* YQClearCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D1F921813ED9D63FFA25C40D7FA45D /* YQClearCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2EB74D15AE975391FD291607EEA4BE3 /* YQClearCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CD18DD454735952288A54EDB1C2FFAD2 /* YQClearCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,29 +28,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E6673D31EFEA1A9CC8EB9ED4388F90E /* YQClearCache.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = YQClearCache.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0E95743181BE4CE265247BA25FB13521 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1496403CC192557166F02526E47000D7 /* YQClearCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YQClearCache-dummy.m"; sourceTree = "<group>"; };
+		1EE37002E715BE3B7B6B26FE651D7384 /* YQClearCache.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YQClearCache.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		26E7B18FE0E312610824E11F80431205 /* Pods-YQClearCache_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YQClearCache_Tests-resources.sh"; sourceTree = "<group>"; };
-		43D1F921813ED9D63FFA25C40D7FA45D /* YQClearCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YQClearCache-umbrella.h"; sourceTree = "<group>"; };
 		4449852812984CC4ABE603A572F779E2 /* Pods-YQClearCache_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQClearCache_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		44FBD118E1ED904B168BF790E0A6A2CD /* Pods-YQClearCache_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YQClearCache_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		493F9C97789B0087317CC24F0BF52B46 /* YQClearCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YQClearCache.modulemap; sourceTree = "<group>"; };
-		4E847AD85C389928B5E84CAF67F07554 /* YQClearCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YQClearCache-dummy.m"; sourceTree = "<group>"; };
-		5FC671CE9092352CEBB423E7A96D8995 /* YQClearCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YQClearCache-prefix.pch"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		77D5F298F37484C4FFFC05F150D49CB0 /* Pods-YQClearCache_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQClearCache_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7DCEDBD754B89F8265EF1E3D84179DFD /* Pods-YQClearCache_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YQClearCache_Tests.modulemap"; sourceTree = "<group>"; };
-		816A3F1EC0868BB6CB7D3B44D844D2D2 /* YQClearCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YQClearCache.xcconfig; sourceTree = "<group>"; };
-		83C6243D33F1E700AD0B4EDB16DEAB64 /* Pods_YQClearCache_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YQClearCache_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C6243D33F1E700AD0B4EDB16DEAB64 /* Pods_YQClearCache_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YQClearCache_Tests.framework; path = "Pods-YQClearCache_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8738E276FE1CD7DC1D6205D24E6C1685 /* YQClearCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQClearCache.h; path = YQClearCache/Classes/YQClearCache.h; sourceTree = "<group>"; };
+		8E9AEB44C3893B4D27F14FED89534ACF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		8EE190C9D333155CD217154088A6254F /* Pods-YQClearCache_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YQClearCache_Tests-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A3AABD6010AF81047C2EADFC326C5015 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F6EF3752C6F48851577D5CD4D709A07 /* YQClearCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YQClearCache.modulemap; sourceTree = "<group>"; };
 		A4E410D68D8C65A78589F9D9B3140DC9 /* Pods-YQClearCache_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YQClearCache_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B14256C41D9536816285505C18C42726 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B46DD97CB162356EFF9D8F9974B01ABF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B75876E06C89F49E8C3BBEFEEF80F915 /* Pods-YQClearCache_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQClearCache_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C84D8A80364B7F5576D62B26A6D2C638 /* YQClearCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YQClearCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6E5549752D2E35685173F79862289D /* YQClearCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YQClearCache-prefix.pch"; sourceTree = "<group>"; };
+		C84D8A80364B7F5576D62B26A6D2C638 /* YQClearCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YQClearCache.framework; path = YQClearCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD18DD454735952288A54EDB1C2FFAD2 /* YQClearCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQClearCache.m; path = YQClearCache/Classes/YQClearCache.m; sourceTree = "<group>"; };
 		DE9871964DBEE1FC524684B4FC44B313 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E559E5F97EB1FDA6D0455029A08825CE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E0739C81823CF0417048E0F27938D8F7 /* YQClearCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YQClearCache.xcconfig; sourceTree = "<group>"; };
 		F106DE49CBD1E175A546C864DC6CB69A /* Pods-YQClearCache_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YQClearCache_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FD8762CBF0BDBE775EEEA6DEF5A894CA /* YQClearCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YQClearCache-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,12 +93,14 @@
 			path = "Target Support Files/Pods-YQClearCache_Tests";
 			sourceTree = "<group>";
 		};
-		066A9AB4E646D662BFC5072C4A38E57F /* Development Pods */ = {
+		0CE94BA3808E00D51F16370E7C71D71E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4DA4C67E0F3B2595406A7D4945410D89 /* YQClearCache */,
+				8E9AEB44C3893B4D27F14FED89534ACF /* LICENSE */,
+				B14256C41D9536816285505C18C42726 /* README.md */,
+				1EE37002E715BE3B7B6B26FE651D7384 /* YQClearCache.podspec */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		17447525F595E1DCBE8628D69FAA72CA /* Products */ = {
@@ -106,16 +112,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4DA4C67E0F3B2595406A7D4945410D89 /* YQClearCache */ = {
-			isa = PBXGroup;
-			children = (
-				C6730C79C6F6876445B4F42E4DE279A4 /* Pod */,
-				F1B71548355BDF85F6AED09654B95FFE /* Support Files */,
-			);
-			name = YQClearCache;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		58271A0E1F8EED5D3532BA1CE67B612A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,15 +120,35 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		666D22576383C8601CD9AE7B3DEEC243 /* YQClearCache */ = {
+			isa = PBXGroup;
+			children = (
+				8738E276FE1CD7DC1D6205D24E6C1685 /* YQClearCache.h */,
+				CD18DD454735952288A54EDB1C2FFAD2 /* YQClearCache.m */,
+				0CE94BA3808E00D51F16370E7C71D71E /* Pod */,
+				C21D0D639137B6B568BB0D107F2013D6 /* Support Files */,
+			);
+			name = YQClearCache;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				066A9AB4E646D662BFC5072C4A38E57F /* Development Pods */,
+				AA53E0675F0C653331A2F5981B9DB01B /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				17447525F595E1DCBE8628D69FAA72CA /* Products */,
 				58271A0E1F8EED5D3532BA1CE67B612A /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		AA53E0675F0C653331A2F5981B9DB01B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				666D22576383C8601CD9AE7B3DEEC243 /* YQClearCache */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -143,14 +159,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C6730C79C6F6876445B4F42E4DE279A4 /* Pod */ = {
+		C21D0D639137B6B568BB0D107F2013D6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E559E5F97EB1FDA6D0455029A08825CE /* LICENSE */,
-				A3AABD6010AF81047C2EADFC326C5015 /* README.md */,
-				0E6673D31EFEA1A9CC8EB9ED4388F90E /* YQClearCache.podspec */,
+				B46DD97CB162356EFF9D8F9974B01ABF /* Info.plist */,
+				9F6EF3752C6F48851577D5CD4D709A07 /* YQClearCache.modulemap */,
+				E0739C81823CF0417048E0F27938D8F7 /* YQClearCache.xcconfig */,
+				1496403CC192557166F02526E47000D7 /* YQClearCache-dummy.m */,
+				BD6E5549752D2E35685173F79862289D /* YQClearCache-prefix.pch */,
+				FD8762CBF0BDBE775EEEA6DEF5A894CA /* YQClearCache-umbrella.h */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YQClearCache";
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -161,28 +181,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F1B71548355BDF85F6AED09654B95FFE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0E95743181BE4CE265247BA25FB13521 /* Info.plist */,
-				493F9C97789B0087317CC24F0BF52B46 /* YQClearCache.modulemap */,
-				816A3F1EC0868BB6CB7D3B44D844D2D2 /* YQClearCache.xcconfig */,
-				4E847AD85C389928B5E84CAF67F07554 /* YQClearCache-dummy.m */,
-				5FC671CE9092352CEBB423E7A96D8995 /* YQClearCache-prefix.pch */,
-				43D1F921813ED9D63FFA25C40D7FA45D /* YQClearCache-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YQClearCache";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C823A132CD7013F5F58E16A49D93C0B9 /* Headers */ = {
+		CA53B088655BEFE1C8672F449DF12E15 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F17A5AE0198EE7B3E862B14D4592D571 /* YQClearCache-umbrella.h in Headers */,
+				75326458995E2E294290F2498C87C874 /* YQClearCache-umbrella.h in Headers */,
+				1E7CED11A2394EF5AFC2CC291208F6EB /* YQClearCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +226,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 172884B347F8294DBEE27194141B16C0 /* Build configuration list for PBXNativeTarget "YQClearCache" */;
 			buildPhases = (
-				1C6B7998952F2D2ED8253CC3D6B034E1 /* Sources */,
+				3A19417F411750D404CE19FF654906AB /* Sources */,
 				5486D379BF038C85A533BC8B8F82E4F6 /* Frameworks */,
-				C823A132CD7013F5F58E16A49D93C0B9 /* Headers */,
+				CA53B088655BEFE1C8672F449DF12E15 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -260,11 +267,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1C6B7998952F2D2ED8253CC3D6B034E1 /* Sources */ = {
+		3A19417F411750D404CE19FF654906AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A3A125E367D95552ED49C1A85C6F9DF /* YQClearCache-dummy.m in Sources */,
+				1246A8DC2B36C2247FE2081D71AA5079 /* YQClearCache-dummy.m in Sources */,
+				D2EB74D15AE975391FD291607EEA4BE3 /* YQClearCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,7 +451,7 @@
 		};
 		A19AA4FC3430E023F8225E127723D42F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 816A3F1EC0868BB6CB7D3B44D844D2D2 /* YQClearCache.xcconfig */;
+			baseConfigurationReference = E0739C81823CF0417048E0F27938D8F7 /* YQClearCache.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -505,7 +513,7 @@
 		};
 		FCB3862F2E9F4385C77BBB462C940631 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 816A3F1EC0868BB6CB7D3B44D844D2D2 /* YQClearCache.xcconfig */;
+			baseConfigurationReference = E0739C81823CF0417048E0F27938D8F7 /* YQClearCache.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
